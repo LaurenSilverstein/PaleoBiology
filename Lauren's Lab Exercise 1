@@ -1,0 +1,118 @@
+R Concepts quiz answers
+
+
+Beginner concepts quiz
+
+Problem set 1
+
+1)	mtcars is a list, which I found by using the typeof function: typeof(mtcars)
+2)	precip is defined as a vector, which I found out by entering the function is(precip, “vector”).
+3)	Use the function as(trees, “matrix”), which will put brackets around the values in the first column. 
+4)	City 14 is Atlanta.
+5)	The list function: Q5list<-list(precip,mtcars,trees)
+6)	(precip) is numeric data, which I found by is(precip,”numeric”)
+7)	
+1.	mtcars[2,7]
+2.	mtcars[,7][2]
+3.	mtcars[2, “qsec”]
+4.	mtcars[,”qsec][2]
+
+
+8)	precip[“Juneau”]<-23
+precip[“Phoenix”]<-46
+precip[“Sacramento”]<-12
+
+9)	There are no trees whose girth exceeds their volume, and I found this by looking at the data and comparing the values for each visually.
+10)	 Final answer is 2356.628.
+
+Intermediate concepts quiz
+
+Problem set 1
+1)	the REPLACE= argument means that 
+2)	The MatrixElements can be converted into a 0,1 format by using the commands MatrixElements[FALSE]<-0. This is the only step needed, as TRUE will convert to 1 automatically!
+3)	To check if all the elements of a row were true, you could...
+4)	Problem set 2
+
+1)	The number 7 occurs 16 times in this matrix.
+
+2)	Apply(MyMatrix,2,sum)
+→[1] 51 37 45 58 47 54 51 46 53 42 59 42
+3)	apply(MyMatrix, 2, prod)
+[1]  290304   46656  123480 3402000  340200 1080000 1975680   79380  987840
+[10]  134400 4838400   72000
+
+4)	MyMatrix[which(MyMatrix==10)]<-12
+MyMatrix
+[,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10] [,11] [,12]
+[1,]    8    4    7    9    3    2    8    2    9     2     3     5
+[2,]    8   12    8   12    5   12    7    9    1    12     8    12
+[3,]    1    6    1    6    9    5    5    1    8     4    12     1
+[4,]    7    1    5   12    2    2    3    7    7     2     9    12
+[5,]    9    6    7    5    9    9    7    1    4     3    12     2
+[6,]    1    2    9    9    2   12    8   12   12     4     7     3
+[7,]    9    9    1    2   12    6    6    9    7    12     8     8
+[8,]    8    3    7    7    7   12    7    7    7     7     4     3
+
+5)	MyMatrix[which(MyMatrix > 3 & MyMatrix < 8)]
+ [1] 7 4 6 6 7 5 7 7 6 5 7 5 7 5 6 7 5 7 6 7 7 7 7 4 7 7 4 4 7 7 4 5
+So, there are 32 values in this matrix between 3 and 8
+6)	?????????????????????????
+7)	????????? This is what I got so far…
+
+LastColumn<-c(FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE)
+> LastColumn
+[1] FALSE  TRUE FALSE FALSE  TRUE  TRUE  TRUE  TRUE
+> ListOne<-list(Matrix, LastColumn)
+> ListOne
+[[1]]
+     [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10] [,11] [,12]
+[1,]    8    4    7    9    3    2    8    2    9     2     3     5
+[2,]    8    6    8   10    5   10    7    9    1    10     8    10
+[3,]    1    6    1    6    9    5    5    1    8     4    10     1
+[4,]    7    1    5   10    2    2    3    7    7     2     9    10
+[5,]    9    6    7    5    9    9    7    1    4     3    10     2
+[6,]    1    2    9    9    2   10    8   10   10     4     7     3
+[7,]    9    9    1    2   10    6    6    9    7    10     8     8
+[8,]    8    3    7    7    7   10    7    7    7     7     4     3
+
+[[2]]
+[1] FALSE  TRUE FALSE FALSE  TRUE  TRUE  TRUE  TRUE
+
+
+Advanced concepts quiz! 
+
+1a) print[“Hello, World.”]
+1)n
+2)
+3)
+4)
+
+
+ Expert Problem set
+
+1) summary(precip)
+   Median:36.60
+Mean: 34.89
+sd(precip)=
+[1] 13.70665
+
+2) A barplot is better, because each bin on the x axis represents the amount of precipitation in inches, while the height of each bar represents the number of cities that recievee each range of precipitation.
+
+3) 
+rnorm(70, 34.89,13.70665)
+runif(5,min=0,max=100)
+[1] 57.84884 72.56202 29.28831 32.42101 88.71295
+> Randomnormal<-c(57.84884,72.56202,29.28831,32.42101,88.71295)
+> Randomnormal
+[1] 57.84884 72.56202 29.28831 32.42101 88.71295
+
+4)….
+
+
+5) The test from #4 is not a good indicator of how similar the two distributions are. It would base its reasoning on the similarities we input into it in the first place. However, as these plots show, the full precip distribution does not resemble the much-smaller and randomly-generated Randomnormal vector taken from the similar rnorm distribution. 
+
+	         
+
+
+
+
