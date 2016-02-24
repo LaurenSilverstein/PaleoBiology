@@ -81,10 +81,39 @@ LastColumn<-c(FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE)
 
 Advanced concepts quiz! 
 
-1a) print[“Hello, World.”]
-1)n
-2)
-3)
+SayHi<-function(Message){print(Message)}
+> SayHi("Hello, World!")
+[1] "Hello, World!"
+
+1)IrisFunction<-function(iris) {
+  Setosa<-iris[which(iris[,"Species"]=="setosa"),]
+  Virginica<-iris[which(iris[,"Species"]=="virginica"),]
+  Versicolor<-iris[which(iris[,"Species"]=="versicolor"),]
+  return(list(Setosa,Virginica,Versicolor)
+  }
+
+2) IrisFunction<-function(Dataset,Column) {
++ Categories<-unique(Dataset[ ,Column])
++ BlankList<-list()
++ for (i in 1:length(Categories)) {
++ BlankList[[i]]<-Dataset[which(Dataset[,Column]==Categories[i]),]
++ }
++ return(BlankList)
++ }
+> IrisFunction(iris,"Species")
+[[1]]
+   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+1           5.1         3.5          1.4         0.2  setosa
+2           4.9         3.0          1.4         0.2  setosa
+3           4.7         3.2          1.3         0.2  setosa
+
+3) > findMPG<-function(NumCylinders) {
++ CylinderSubset<-mtcars[which(mtcars[,"cyl"]==NumCylinders),]
++ Answer<-mean(CylinderSubset[,"mpg"])
++ return(Answer)
++ }
+> findMPG(4)
+[1] 26.66364
 4)
 
 
