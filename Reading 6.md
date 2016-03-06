@@ -1,0 +1,22 @@
+## Paleobio reading 6 
+
+10/10
+
+## Summary
+This article examines the preservation of marine fossils over short timespans, in an attempt to better understand how fossil assemblages are formed and preserved. Intuition tells us that the fossil record should decline in detail and sheer mass the further back it stretches in time, and from this many would conclude that some process was selectively preserving only a few organisms during deposition. This article tackles the latter assumption, by comparing modern and Late Pleistocene shell deposits in the southern California region. The author compares the shared species between the two assemblages to get a handle on how large, diverse and well-preserved the Pleistocene-age assemblage would have been right at the time of deposition. He concludes that there were few biases that controlled the fossils’ immediate preservation (beyond broad ones like rarity and shell size/resilience) and that incomplete or sporadic preservation is due not to processes that interfere with deposition, but with actual preservation. Also importantly, he observed in the study that the Late Pleistocene deposits appeared to record quite closely the actual community of bivalves and gastropods alive at the time. 
+
+## Liked
+I quite liked and appreciated this article, and thought it was a well-considered approach to the problem of studying fossilization “as it is happening.” The whole endeavor was well-considered and constructed, and the results were solid. I had a conceptual problem with the pre-burial end of the equation, but the post-burial conclusions were intuitive and a good basis for studies going forward. It simply makes sense that factors in fossil destruction like uplift/exposure, deformation and compression would be the main control on the quantity and quality of the fossil record (rather than events disrupting burial). This is a great example of a complex problem being approached in a clear, simple manner to yield straightforward results. I would have really liked to have seen this project pushed further—what of older terraces in the region, or basins with continuous deposition over a longer time interval? Is there a discernible pattern to how preservation degrades over time? Some exciting possibilities could have arisen from this!
+
+## Dislikes
+I am, however, a bit skeptical of the author’s simplifications; the real world isn’t a simple dichotomy of deposition and burial. This would be a suitable starting assumption for a model, but this is explicitly intended to get at real-world processes. Granted, marine burial is usually fairly straightforward, but what about chemical overprinting that occurs postmortem but pre-burial? What about turbulence or slumpage that disturbs loosely-buried but nonconsolidated fossiliferous sediment? The problem is that burial (i.e. coverage by sediment) isn’t the interface between deposition and fossilization, so I feel that this issue should have been accounted for in the study. 
+
+> I'm not sure that those factors are really relevant to the question being asked. The specific depositional processes were not the focus, so much as the overall fidelity.
+
+His conclusions are also mainly only applicable to shelled marine macrofossils that live along coastlines. I’m not sure what the implications would be for microfossils, marine vertebrate hard parts, or the remains of anything that lived offshore where depositional mechanisms differ drastically. It would have been nice if he had included some speculation in that area, at least—how is the immediate post-deposition preservation of forams and so on? How do these results hold for deeper waters, or for other organisms? Are there any analogues for terrestrial organisms—is plant matter preserved in a similar manner? 
+
+> Well, is speculation really the best way to do science?
+
+## Figures
+The figures were not too great. The chart of figures comparing the two pools was a nice summary of the results, and was easier to scan than the accompanying text in the “comparisons” section. I would have liked to have seen a graph (not sure which type) to more easily convey the relationship. 
+The map could have been either more detailed, or smaller; I didn’t get a very good sense of the actual size of the “zone”; some sort of schematic of underwater topography would have helped me to understand the sorts of deposits he was working with. Outcrop photos of the terraces would have been useful, as well as photos comparing Pleistocene and modern individuals. 
