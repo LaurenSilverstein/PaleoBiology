@@ -182,7 +182,21 @@ runif(5,min=0,max=100)
 [1] 57.84884 72.56202 29.28831 32.42101 88.71295
 
 4)
-
+comparePrecip<-function(precip,RandomNormal,Iterations=100){
++ MeanDiff<-mean(precip)-mean(RandomNormal)
++ Barrel<-c(precip,RandomNormal)
++ ReplicatedMeans<-array(data=NA,dim=Iterations)
++ for(Counter in 1:Iterations){
++ newPrecip<-sample(Barrel,length(precip),replace=TRUE)
++ newRNormal<-sample(Barrel,length(RandomNormal),replace=TRUE)
++ PrecipMean<-mean(newPrecip)
++ RandomMean<-mean(newRNormal)
++ ReplicatedMeans[Counter]<-RandomMean-PrecipMean
++ }
++ Percentage<-length(which(ReplicationResults>MeanDifference))/Iterations
++ return(Percentage)
++ }
+##Hmmmm. I followed the answer sheet example almost exactly, and when I entered comparePrecip it simply repeated all the text and did not return any actual values.
 
 5) The test from #4 is not a good indicator of how similar the two distributions are. It would base its reasoning on the similarities we input into it in the first place. However, as these plots show, the full precip distribution does not resemble the much-smaller and randomly-generated Randomnormal vector taken from the similar rnorm distribution. 
 
